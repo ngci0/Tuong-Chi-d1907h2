@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding-top: 1%;
+}
+
+.nav-item{
+
+	font-size: 110%;
+}
+
+
+
+.cover{
+	height: 1vh;
+	background-size: cover;
+}
+
+
+
+ .logo{
+	position: fixed;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content
+{
+	display: none;
+	position: absolute;
+	z-index: 1;
+	list-style: none;
+	font-size: 70%;
+	margin: 2%;
+}
+
+.dropdown:hover .dropdown-content
+{
+	display: block;
+}
+
+.card-body{
+	position: absolute;
+	padding-top: 65%;	
+}
+
+.something-container{
+ position:relative;
+ text-align: center;
+}
+.something-img{
+width: 100%;
+}
+
+.card-title{
+	padding-top: 5%;
+}
+
+.landing-text{
+	position: absolute;
+	text-align: center;
+	color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding-left: 10%;
+
+}
+
+@media screen and (max-width:414px){
+	
+h1{
+		color: white;
+		padding-top:20%;
+	}
+	
+}
+
+
+
+
+
+	
